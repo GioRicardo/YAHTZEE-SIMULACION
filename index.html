@@ -1,0 +1,124 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="StyleSheet" href="style.css">
+</head>
+<body>
+</div>
+<div id="scoreTable" class="table">
+<div class="header">
+  <div class="header-cell"></div>
+  <div class="header-cell">Jugador 1</div>
+  <div class="header-cell">Jugador 2</div>
+</div>
+<div class="row">
+  <div class="cell">Unos</div>
+  <div class="cell" id="ones1" data-row="1" data-column="1"></div>
+  <div class="cell" id="ones2" data-row="1" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Doces</div>
+  <div class="cell" id="twos1" data-row="2" data-column="1"></div>
+  <div class="cell" id="twos2" data-row="2" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Treses</div>
+  <div class="cell" id="threes1" data-row="3" data-column="1"></div>
+  <div class="cell" id="threes2" data-row="3" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Cuatros</div>
+  <div class="cell" id="fours1" data-row="4" data-column="1"></div>
+  <div class="cell" id="fours2" data-row="4" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Cincos</div>
+  <div class="cell" id="fives1" data-row="5" data-column="1"></div>
+  <div class="cell" id="fives2" data-row="5" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Seis</div>
+  <div class="cell" id="sixes1" data-row="6" data-column="1"></div>
+  <div class="cell" id="sixes2" data-row="6" data-column="2"></div>
+</div>
+<div class="row" id="sumCaption">
+  <div class="cell">Suma</div>
+  <div class="cell" id="sum1" ></div>
+  <div class="cell" id="sum2" ></div>
+</div>
+<div class="row" id="bonusCaption">
+  <div class="cell">Extra</div>
+  <div class="cell" id="bonus1" ></div>
+  <div class="cell" id="bonus2" ></div>
+</div>
+<div class="row">
+  <div class="cell">Tres iguales</div>
+  <div class="cell" id="threeOfAKind1" data-row="7" data-column="1"></div>
+  <div class="cell" id="threeOfAKind2" data-row="7" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Cuatro iguales</div>
+  <div class="cell" id="fourOfAKind1" data-row="8" data-column="1"></div>
+  <div class="cell" id="fourOfAKind2" data-row="8" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Full House</div>
+  <div class="cell" id="fullHouse1" data-row="9" data-column="1"></div>
+  <div class="cell" id="fullHouse2" data-row="9" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Escalera pequeña</div>
+  <div class="cell" id="smallStraight1" data-row="10" data-column="1"></div>
+  <div class="cell" id="smallStraight2" data-row="10" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Escalera larga</div>
+  <div class="cell" id="largeStraight1" data-row="11" data-column="1"></div>
+  <div class="cell" id="largeStraight2" data-row="11" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Chance</div>
+  <div class="cell" id="chance1" data-row="12" data-column="1"></div>
+  <div class="cell" id="chance2" data-row="12" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell">Yahtzee</div>
+  <div class="cell" id="yahtzee1" data-row="13" data-column="1"></div>
+  <div class="cell" id="yahtzee2" data-row="13" data-column="2"></div>
+</div>
+<div class="row">
+  <div class="cell" id="totalCaption">Puntaje Total</div>
+  <div class="cell" id="total1" ></div>
+  <div class="cell" id="total2" ></div>
+</div>          
+</div>
+<div id="gameContainer">
+<div id="board">
+  <div class="dice-container" id="player2Container"></div>
+  <div id="playArea">
+    <div id="endGameMessage"></div>
+    <button id="roll" class="image-button"></button>
+  </div>
+  <div class="dice-container" id="player1Container">
+    <div class="dice" id="die1">
+      <img src="dice1.jpg" class="face">
+    </div>
+    <div class="dice" id="die2">
+      <img src="dice2.png" class="face">
+    </div>
+    <div class="dice" id="die3">
+      <img src="dice3.png" class="face">
+    </div>
+    <div class="dice" id="die4">
+      <img src="dice4.png" class="face">
+    </div>
+    <div class="dice" id="die5">
+      <img src="dice5.png" class="face">
+    </div>
+  </div>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
